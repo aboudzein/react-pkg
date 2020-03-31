@@ -15,14 +15,8 @@ npm install --save @aboudzein/react-pkg
 ```jsx
 import React, { Component } from 'react'
 
-import { useMyHook } from '@aboudzein/react-pkg'
+import { GenericRouter } from '@aboudzein/react-pkg'
 
-const Example = () => {
-  const example = useMyHook()
-  return (
-    <div>{example}</div>
-  )
-}
 ```
 
 ## License
@@ -31,4 +25,3 @@ MIT © [](https://github.com/)
 
 ---
 
-This hook is created using [create-react-hook](https://github.com/hermanya/create-react-hook).

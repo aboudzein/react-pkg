@@ -19,3 +19,8 @@ export const useMyHook = () => {
 
   return counter
 }
+
+
+import GenericRouter from './GenericRouter'
+
+export { GenericRouter } 
